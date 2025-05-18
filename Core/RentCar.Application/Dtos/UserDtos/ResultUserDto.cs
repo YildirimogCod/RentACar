@@ -1,6 +1,8 @@
-﻿namespace RentCar.Domain.Entities
+﻿using RentCar.Domain.Entities;
+
+namespace RentCar.Application.Dtos.UserDtos
 {
-    public class User
+    public class ResultUserDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

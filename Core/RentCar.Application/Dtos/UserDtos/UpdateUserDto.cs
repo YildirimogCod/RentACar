@@ -1,6 +1,8 @@
-﻿namespace RentCar.Domain.Entities
+﻿using RentCar.Domain.Entities;
+
+namespace RentCar.Application.Dtos.UserDtos
 {
-    public class User
+    public class UpdateUserDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -11,6 +13,5 @@
 
         public string Role { get; set; }
 
-        public List<RentedCar> RentedCars { get; set; }
     }
 }

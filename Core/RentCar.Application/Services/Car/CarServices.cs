@@ -2,7 +2,7 @@
 using RentCar.Application.Interfaces.Repositories;
 using RentCar.Domain.Entities;
 
-namespace RentCar.Application.Services
+namespace RentCar.Application.Services.Car
 {
     public class CarServices:ICarServices
     {
@@ -55,7 +55,7 @@ namespace RentCar.Application.Services
 
         public async Task AddCarAsync(CreateCarDtos car)
         {
-            var value = new Car
+            var value = new Domain.Entities.Car
             {
                 ImageUrl = car.ImageUrl,
                 Brand = car.Brand,

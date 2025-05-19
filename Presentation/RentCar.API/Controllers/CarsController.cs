@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RentCar.Application.Dtos.CarDtos;
-using RentCar.Application.Services;
+using RentCar.Application.Services.Car;
 
 namespace RentCar.API.Controllers
 {

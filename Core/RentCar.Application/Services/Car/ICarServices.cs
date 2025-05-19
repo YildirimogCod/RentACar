@@ -1,7 +1,6 @@
-﻿
-using RentCar.Application.Dtos.CarDtos;
+﻿using RentCar.Application.Dtos.CarDtos;
 
-namespace RentCar.Application.Services
+namespace RentCar.Application.Services.Car
 {
     public interface ICarServices
     {

@@ -1,4 +1,5 @@
-﻿using RentCar.Domain.Entities;
+﻿using RentCar.Application.Dtos.UserDtos;
+using RentCar.Domain.Entities;
 
 namespace RentCar.Application.Dtos.RentedCarDtos
 {
@@ -13,6 +14,6 @@ namespace RentCar.Application.Dtos.RentedCarDtos
         public decimal DamagePrice { get; set; }
         public bool IsReturned { get; set; }
         public Car Car { get; set; }
-        public User User { get; set; }
+        public InfoForUser User { get; set; }
     }
 }

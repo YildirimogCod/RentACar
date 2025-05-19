@@ -2,8 +2,9 @@
 
 namespace RentCar.Application.Dtos.RentedCarDtos
 {
-    public class CreateCarDto
+    public class UpdateRentedCarDto
     {
+        public int Id { get; set; }
         public int CarId { get; set; }
         public int UserId { get; set; }
         public DateTime StartDate { get; set; }
@@ -11,6 +12,5 @@ namespace RentCar.Application.Dtos.RentedCarDtos
         public decimal TotalPrice { get; set; }
         public decimal DamagePrice { get; set; }
         public bool IsReturned { get; set; }
-
     }
 }

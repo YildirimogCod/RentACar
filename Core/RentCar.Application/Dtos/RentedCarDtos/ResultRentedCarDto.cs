@@ -2,7 +2,7 @@
 
 namespace RentCar.Application.Dtos.RentedCarDtos
 {
-    public class ResultCarDto
+    public class ResultRentedCarDto
     {
         public int Id { get; set; }
         public int CarId { get; set; }
